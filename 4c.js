@@ -9,7 +9,6 @@ if(removeChar === checkPalindrome){
   return false;
 }
 }
-palindrome('"kajak"')
-palindrome('"skok"')
+console.log(palindrome('"kajak"'));
 
 
