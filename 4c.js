@@ -1,4 +1,5 @@
 function palindrome(p){
+var removeChar = p.replace(/[^A-Z0-9]/ig, "").toLowerCase();
 var checkPalindrome = removeChar.split('').reverse().join('');
 
 if(removeChar === checkPalindrome){
@@ -7,6 +8,7 @@ if(removeChar === checkPalindrome){
   return false;
 }
 }
+
 console.log(palindrome('"Kajak"'));
 
 
