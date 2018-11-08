@@ -7,6 +7,6 @@ if(removeChar === checkPalindrome){
   return false;
 }
 }
-console.log(palindrome('"kajak"'));
+console.log(palindrome('"Kajak"'));
 
 
